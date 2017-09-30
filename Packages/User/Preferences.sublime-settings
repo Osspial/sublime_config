@@ -1,6 +1,9 @@
 {
 	"always_show_minimap_viewport": true,
 	"bold_folder_labels": true,
+	"caret_extra_bottom": 1,
+	"caret_extra_top": 1,
+	"caret_extra_width": 0,
 	"caret_style": "phase",
 	"color_scheme": "Packages/Materialize/schemes/Material Stereokai.tmTheme",
 	"default_line_ending": "unix",
@@ -57,8 +60,7 @@
 		"*.psd",
 		"*.db",
 		"*.sublime-workspace",
-		"D/programming/git/gl_raii/Cargo.lock",
-		"D/programming/git/gl_raii/gl_raw/Cargo.lock"
+		"D/programming/git/derin/Cargo.lock"
 	],
 	"folder_exclude_patterns":
 	[
@@ -66,9 +68,13 @@
 		".git",
 		".hg",
 		"CVS",
-		"D/programming/git/gl_raii/target"
+		"D/programming/git/derin/target"
 	],
-	"font_size": 10,
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
+	"font_size": 9,
 	"ignored_packages":
 	[
 		"Rust",
@@ -80,6 +86,10 @@
 	"material_theme_small_tab": true,
 	"overlay_scroll_bars": "enabled",
 	"theme": "Material Stereokai.sublime-theme",
+	"theme_font_options":
+	[
+		"gdi"
+	],
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
 }
